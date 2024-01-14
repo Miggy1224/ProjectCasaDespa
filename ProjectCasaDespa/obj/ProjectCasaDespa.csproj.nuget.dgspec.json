@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linde\\Documents\\School\\3rd year\\2nd Sem\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj": {}
+    "C:\\Users\\lourd\\source\\repos\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linde\\Documents\\School\\3rd year\\2nd Sem\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj": {
+    "C:\\Users\\lourd\\source\\repos\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linde\\Documents\\School\\3rd year\\2nd Sem\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj",
+        "projectUniqueName": "C:\\Users\\lourd\\source\\repos\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj",
         "projectName": "ProjectCasaDespa",
-        "projectPath": "C:\\Users\\linde\\Documents\\School\\3rd year\\2nd Sem\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj",
-        "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linde\\Documents\\School\\3rd year\\2nd Sem\\ProjectCasaDespa\\ProjectCasaDespa\\obj\\",
+        "projectPath": "C:\\Users\\lourd\\source\\repos\\ProjectCasaDespa\\ProjectCasaDespa\\ProjectCasaDespa.csproj",
+        "packagesPath": "C:\\Users\\lourd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lourd\\source\\repos\\ProjectCasaDespa\\ProjectCasaDespa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\linde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lourd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -28,3 +28,34 @@ C:\Users\linde\Documents\School\3rd year\2nd Sem\ProjectCasaDespa\ProjectCasaDes
 C:\Users\linde\Documents\School\3rd year\2nd Sem\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.pdb
 C:\Users\linde\Documents\School\3rd year\2nd Sem\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.genruntimeconfig.cache
 C:\Users\linde\Documents\School\3rd year\2nd Sem\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ref\ProjectCasaDespa.dll
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\appsettings.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\ProjectCasaDespa.staticwebassets.runtime.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\ProjectCasaDespa.exe
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\ProjectCasaDespa.deps.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\ProjectCasaDespa.runtimeconfig.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\ProjectCasaDespa.dll
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\bin\Debug\net7.0\ProjectCasaDespa.pdb
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.AssemblyInfoInputs.cache
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.AssemblyInfo.cs
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.csproj.CoreCompileInputs.cache
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.RazorAssemblyInfo.cache
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.RazorAssemblyInfo.cs
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.sourcelink.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\staticwebassets\msbuild.ProjectCasaDespa.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\staticwebassets\msbuild.build.ProjectCasaDespa.props
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ProjectCasaDespa.props
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ProjectCasaDespa.props
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\scopedcss\bundle\ProjectCasaDespa.styles.css
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\scopedcss\projectbundle\ProjectCasaDespa.bundle.scp.css
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.dll
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\refint\ProjectCasaDespa.dll
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.pdb
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ProjectCasaDespa.genruntimeconfig.cache
+C:\Users\lourd\Source\Repos\ProjectCasaDespa\ProjectCasaDespa\obj\Debug\net7.0\ref\ProjectCasaDespa.dll

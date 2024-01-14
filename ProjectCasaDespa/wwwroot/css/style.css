@@ -1,45 +1,64 @@
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+    font-family: 'Spectral', serif;
+    background-color: #F0D9B7;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
 }
 
 a {
   text-decoration: none;
-  color: #d9232d;
+  color: black;
 }
 
 a:hover {
-  color: #e24d55;
   text-decoration: none;
+  color:dimgray;
 }
 
-h1,
-h2,
+h1 {
+    font-family: 'Spectral', serif;
+    font-weight:bold;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+}
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+    font-family: 'Spectral', serif;
 }
 
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #d9232d;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
 }
 
 .back-to-top i {
@@ -48,10 +67,10 @@ h6 {
   line-height: 0;
 }
 
-.back-to-top:hover {
-  background: #e1444d;
-  color: #fff;
-}
+    .back-to-top:hover {
+        background: #a89577;
+        color: #fff;
+    }
 
 .back-to-top.active {
   visibility: visible;
@@ -62,10 +81,10 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: white;
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 20px 0;
+    background-color: #000000;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
 }
 
 #header.header-scrolled {
@@ -91,7 +110,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -101,7 +120,8 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+    padding: 0;
+    background-color: #000000;
 }
 
 .navbar ul {
@@ -116,19 +136,19 @@ h6 {
   position: relative;
 }
 
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: #556270;
-  white-space: nowrap;
-  transition: 0.3s;
-}
+    .navbar a,
+    .navbar a:focus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0 10px 30px;
+        font-family: 'Spectral', serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #F0D9B7;
+        white-space: nowrap;
+        transition: 0.3s;
+    }
 
 .navbar a i,
 .navbar a:focus i {
@@ -137,28 +157,28 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-  color: #d9232d;
-}
+        .navbar a:hover,
+        .navbar .active,
+        .navbar .active:focus,
+        .navbar li:hover > a {
+            color: #a89577;
+        }
 
-.navbar .getstarted,
-.navbar .getstarted:focus {
-  background: #d9232d;
-  padding: 8px 25px;
-  margin-left: 30px;
-  border-radius: 4px;
-  font-weight: 400;
-  color: #fff;
-}
+    .navbar .getstarted,
+    .navbar .getstarted:focus {
+        background: #F0D9B7;
+        padding: 8px 25px;
+        margin-left: 30px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: black;
+    }
 
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #e1444d;
-}
+    .navbar .getstarted:hover,
+    .navbar .getstarted:focus:hover {
+        color: black;
+        background: #a89577;
+    }
 
 .navbar .dropdown ul {
   display: block;
@@ -190,11 +210,11 @@ h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #d9232d;
-}
+    .navbar .dropdown ul a:hover,
+    .navbar .dropdown ul .active:hover,
+    .navbar .dropdown ul li:hover > a {
+        color: #a89577;
+    }
 
 .navbar .dropdown:hover>ul {
   opacity: 1;
@@ -335,14 +355,148 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Welcome Section
+--------------------------------------------------------------*/
+#welcome {
+    margin-top: 30px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background: url("../img/bgimg.png") no-repeat center;
+    background-size: 100%;
+}
+
+#welcomecontainer {
+    display: flex;
+}
+
+#welcomediv1 {
+    color:black;
+    width:60%;
+    align-content:center;
+    text-align:center;
+    padding-top: 200px;
+}
+#welcomediv2 {
+    
+}
+
+#blkbiglogo {
+    width:auto;
+    height:600px;
+}
+
+/*--------------------------------------------------------------
+# Button Menu Section
+--------------------------------------------------------------*/
+#menu {
+    align-content:center;
+    margin:0;
+    width:100%;
+    padding:0;
+    margin-left:0;
+    display:flex;
+    flex-direction:column;
+}
+#buttonmenucontainer {
+    flex: 1;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: black;
+}
+
+#remindersbtn {
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #F0D9B7;
+    border-width: 3px;
+    border-color: white;
+}
+
+#ratesbtn {
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+    border-width: 3px;
+    border-color: white;
+    color: #F0D9B7;
+}
+
+#otherbtn {
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #F0D9B7;
+    border-width: 3px;
+    border-color:white;
+}
+
+/*--------------------------------------------------------------
+# Rates Section
+--------------------------------------------------------------*/
+#rates {
+    background: url("../img/rbg.jpg");
+    background-repeat: no-repeat;
+    background-size:2000px;
+    height: 800px;
+    width: 100%;
+}
+#ratesdiv {
+    background-color: black;
+    width: 90%;
+    height: 560px;
+    align-self: center;
+    text-align: center;
+    margin: 50px;
+    margin-left: 70px;
+    margin-right: 85px;
+    padding: 50px;
+}
+
+#ratestitle {
+    color: #F0D9B7;
+}
+
+#ratestable {
+    color: #F0D9B7;
+    margin: 10px;
+    width: 100%;
+    text-align:left;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right: 500px;
+}
+
+td {
+    padding:5px;
+}
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(63, 73, 83, 0.8);
-  overflow: hidden;
-  position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(63, 73, 83, 0.8);
+    overflow: hidden;
+    position: relative;
 }
 
 #hero .carousel,
@@ -1956,10 +2110,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #4a5562;
-  padding: 0 0 30px 0;
-  color: #fff;
-  font-size: 14px;
+    background: black;
+    padding: 0 0 30px 0;
+    color: #F0D9B7;
+    font-size: 14px;
 }
 
 #footer .footer-top {
@@ -2107,4 +2261,396 @@ section {
 
 #footer .credits a:hover {
   color: white;
+}
+
+/*--------------------------------------------------------------
+# Login
+--------------------------------------------------------------*/
+
+#login {
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background: url("../img/bgimg.png") no-repeat center;
+    background-size: 100%;
+}
+
+#logincontainer {
+    display: flex;
+}
+
+#logindiv1 {
+    margin-left:130px;
+}
+
+#logindiv2 {
+    color: black;
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#blkbigloginlogo {
+    width: auto;
+    height: 500px;
+}
+
+#logintext{
+    
+}
+
+#usernamediv {
+    height:100px;
+    width:100%;
+    position:center;
+    text-align:center;
+    margin-top:30px;
+}
+
+#passworddiv {
+    height: 100px;
+    width: 100%;
+    position: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#loginusername{
+    font-size:30px;
+}
+
+#loginpassword {
+    font-size: 30px;
+}
+
+#logiinuserinput {
+    width: 400px;
+    padding: 12px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(90deg,#000000,#000000) left bottom/100% 2px no-repeat, linear-gradient(90deg,#000000,#fafafa) left bottom/100% 2px no-repeat;
+    box-sizing: border-box;
+    background-color: #e8cfa9;
+}
+
+#logiinpassinput {
+    width: 400px;
+    padding: 12px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(90deg,#000000,#000000) left bottom/100% 2px no-repeat, linear-gradient(90deg,#fff,#fff) left bottom/100% 2px no-repeat;
+    box-sizing: border-box;
+    background-color: #e8cfa9;
+}
+
+#loginbutton {
+    width: 300px;
+    height: auto;
+    padding:10px;
+    color: #F0D9B7;
+    border-radius: 20px;
+    background-color:black;
+}
+
+#loginregdiv {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+#loginfgdiv {
+    font-size: 20px;
+    font-weight: 1000;
+    text-decoration:underline;
+}
+
+/*--------------------------------------------------------------
+# Register
+--------------------------------------------------------------*/
+#register {
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+#registerform {
+    margin: 30px;
+    margin-top: 90px;
+    margin-left: 80px;
+    padding: 0px;
+    width: 90%;
+    height: 550px;
+    border-radius: 20px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #EBCDA8;
+}
+
+#registertitle {
+    color: #F0D9B7;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight:bold;
+}
+
+#formcontent {
+    display: flex;
+}
+
+#column1formcontent {
+    width: 50%;
+    height: 350px;
+    padding:30px;
+    text-align:left;
+}
+
+#column2formcontent {
+    width: 50%;
+    height: 350px;
+    padding: 30px;
+}
+
+#registerbuttonscontainer {
+    padding:20px;
+    height:50px;
+    margin-bottom:50px;
+}
+
+#securityquestionsdiv {
+    padding: 20px;
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#regtd {
+    width: 300px;
+    font-weight: bold;
+}
+
+#regtdinput {
+    width: 600px;
+}
+
+#addresstd {
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+}
+
+#addresstddinput {
+    width: 600px;
+    height: 100px;
+}
+
+#firstnameinput {
+    width: 100%;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+    height: 40px;
+}
+
+#lastnameinput {
+    width: 100%;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+    height: 40px;
+}
+
+#addressinput {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+}
+
+#securityquestion {
+    text-align: left;
+    font-weight: bold;
+}
+
+#securityquestioninput {
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+}
+
+#securityanswerinput {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+}
+
+#tabledivemailpass {
+    margin-top: 10px;
+    text-align:left;
+}
+
+#emailinput {
+    width: 100%;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+    height: 40px;
+}
+
+#registerpasswordinput {
+    width: 100%;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+    height: 40px;
+}
+
+#emailtd {
+    width: 200px;
+}
+
+#passwordtd {
+    width: 200px;
+}
+
+#emailregtdinput {
+    width: 400px;
+}
+
+#passregtdinput {
+    width: 400px;
+}
+#cancelbutton {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    background-color: #F5D8B3;
+}
+
+#registerbutton {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    color: #F0D9B7;
+    border-radius: 20px;
+    background-color: black;
+}
+
+input[type="radio"] {
+    color: black;
+    accent-color: black;
+}
+
+input[type=radio]:checked {
+    background-color: black;
+}
+
+#firstname {
+    font-weight: bold;
+}
+
+#lastname {
+    font-weight: bold;
+}
+
+#address {
+    font-weight: bold;
+}
+
+#gender {
+    font-weight: bold;
+}
+
+#email {
+    font-weight: bold;
+}
+
+#registerpassword {
+    font-weight: bold;
+}
+
+#male {
+    font-weight: bold;
+}
+
+#female {
+    font-weight: bold;
 }
