@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{9FB03EA9-2C3B-43B0-9760-3C2EBA013C45}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ProjectCasaDespa PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectCasaDespa/Views/Home/Gallery.cshtml">
+    <Files>
+      <File FileName="ProjectCasaDespa/Views/Home/Privacy.cshtml" Line="119" Column="68" />
+      <File FileName="ProjectCasaDespa/Controllers/HomeController.cs" Line="25" Column="1" />
+      <File FileName="ProjectCasaDespa/Views/Shared/_Layout.cshtml" Line="46" Column="38" />
+      <File FileName="ProjectCasaDespa/wwwroot/css/style.css" Line="381" Column="2" />
+      <File FileName="ProjectCasaDespa/Views/Home/Index.cshtml" Line="73" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjectCasaDespa">
+            <Node name="ProjectCasaDespa">
+              <Node name="Properties" expanded="True" />
+              <Node name="Views">
+                <Node name="Account" expanded="True" />
+              </Node>
+              <Node name="wwwroot">
+                <Node name="img">
+                  <Node name="portfolio" expanded="True" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
