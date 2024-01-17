@@ -1,31 +1,28 @@
 ﻿<Properties StartupConfiguration="{9FB03EA9-2C3B-43B0-9760-3C2EBA013C45}|https">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ProjectCasaDespa PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectCasaDespa/Views/Home/Gallery.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectCasaDespa/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="ProjectCasaDespa/Views/Home/Privacy.cshtml" Line="119" Column="68" />
-      <File FileName="ProjectCasaDespa/Controllers/HomeController.cs" Line="25" Column="1" />
-      <File FileName="ProjectCasaDespa/Views/Shared/_Layout.cshtml" Line="46" Column="38" />
-      <File FileName="ProjectCasaDespa/wwwroot/css/style.css" Line="381" Column="2" />
-      <File FileName="ProjectCasaDespa/Views/Home/Index.cshtml" Line="73" Column="11" />
+      <File FileName="ProjectCasaDespa/Controllers/HomeController.cs" Line="29" Column="10" />
+      <File FileName="ProjectCasaDespa/wwwroot/css/style.css" Line="2659" Column="1" />
+      <File FileName="ProjectCasaDespa/Views/Shared/_Layout.cshtml" Line="76" Column="96" />
+      <File FileName="ProjectCasaDespa/wwwroot/js/main.js" Line="184" Column="5" />
+      <File FileName="ProjectCasaDespa/Views/Home/FAQs.cshtml" Line="23" Column="10" />
+      <File FileName="ProjectCasaDespa/Views/Home/Gallery.cshtml" Line="1" Column="1" />
+      <File FileName="ProjectCasaDespa/Views/Home/Index.cshtml" Line="5" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProjectCasaDespa">
-            <Node name="ProjectCasaDespa">
-              <Node name="Properties" expanded="True" />
-              <Node name="Views">
-                <Node name="Account" expanded="True" />
+            <Node name="ProjectCasaDespa" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot">
-                <Node name="img">
-                  <Node name="portfolio" expanded="True" selected="True" />
-                </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -33,5 +30,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ProjectCasaDespa PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
