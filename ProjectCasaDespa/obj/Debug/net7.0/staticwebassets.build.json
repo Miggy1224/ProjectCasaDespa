@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hHz9BC3VZ3whp7WKjc39/V7HcPRiE1TeHxSyD9PfUxA=",
+  "Hash": "oMMUo8ajV4tRhXrmnmmHDnKGznbK3xLJLpvcPKuVXIk=",
   "Source": "ProjectCasaDespa",
   "BasePath": "_content/ProjectCasaDespa",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/jarangali/Projects/ProjectCasaDespa/ProjectCasaDespa/obj/Debug/net7.0/scopedcss/projectbundle/ProjectCasaDespa.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/jarangali/Projects/ProjectCasaDespa/ProjectCasaDespa/wwwroot/.DS_Store",
+      "SourceId": "ProjectCasaDespa",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jarangali/Projects/ProjectCasaDespa/ProjectCasaDespa/wwwroot/",
+      "BasePath": "_content/ProjectCasaDespa",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/jarangali/Projects/ProjectCasaDespa/ProjectCasaDespa/wwwroot/css/site.css",

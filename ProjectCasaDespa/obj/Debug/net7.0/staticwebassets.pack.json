@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/ProjectCasaDespa.bundle.scp.css"
     },
     {
+      "Id": "/Users/jarangali/Projects/ProjectCasaDespa/ProjectCasaDespa/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/jarangali/Projects/ProjectCasaDespa/ProjectCasaDespa/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
