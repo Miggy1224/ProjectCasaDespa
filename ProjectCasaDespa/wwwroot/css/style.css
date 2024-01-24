@@ -446,45 +446,15 @@ h6 {
     border-color:white;
 }
 
-/*--------------------------------------------------------------
-# Rates Section
---------------------------------------------------------------*/
-#rates {
-    background: url("../img/rbg.jpg");
-    background-repeat: no-repeat;
-    background-size:2000px;
-    height: 800px;
-    width: 100%;
-}
-#ratesdiv {
-    background-color: black;
-    width: 90%;
-    height: 560px;
-    align-self: center;
-    text-align: center;
-    margin: 50px;
-    margin-left: 70px;
-    margin-right: 85px;
-    padding: 50px;
-}
-
-#ratestitle {
+#arates {
+    text-decoration: none;
     color: #F0D9B7;
 }
 
-#ratestable {
-    color: #F0D9B7;
-    margin: 10px;
-    width: 100%;
-    text-align:left;
-    margin-left: 60px;
-    margin-top: 30px;
-    margin-right: 500px;
-}
-
-td {
-    padding:5px;
-}
+    #arates:hover {
+        text-decoration: none;
+        color: dimgray;
+    }
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -2655,3 +2625,764 @@ input[type=radio]:checked {
 /*--------------------------------------------------------------
 # FAQs CSS
 --------------------------------------------------------------*/
+.accordion {
+    background-color: black;
+    color: #F5D8B3;
+    cursor: pointer;
+    padding: 18px;
+    padding-left: 30px;
+    width: 85%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+    .accordion:hover {
+        background-color: #F5D8B3;
+        color: black;
+    }
+
+    .accordion:after {
+        content: '\2193';
+        color: #F5D8B3;
+        font-size: 30px;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+.active_faqs:after {
+    content: "\2191";
+    color: #F5D8B3;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #F5D8B3;
+    max-height: 0;
+    overflow: hidden;
+    width: 85%;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 35px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#faqs {
+    background: url(../img/rbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*--------------------------------------------------------------
+# Forgot Password
+--------------------------------------------------------------*/
+
+#backbuttondiv {
+    margin-top: 90px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+#fpbackbutton {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    color: #F0D9B7;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#fginputfields {
+    text-align: left;
+    padding: 40px;
+    padding-left: 130px;
+}
+
+#forgotpassword {
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+#forgotpasswordform {
+    margin: 30px;
+    margin-left: 250px;
+    padding: 0px;
+    width: 70%;
+    height: 350px;
+    border-radius: 20px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #EBCDA8;
+}
+
+#forgotpasswordtitle {
+    color: #F0D9B7;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#formcontent {
+    display: flex;
+}
+
+#fgemail {
+    font-weight: bold;
+}
+
+#fgemailinput {
+    width: 90%;
+    padding: 12px;
+    border: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #F5D8B3;
+    height: 40px;
+}
+
+#nextbutton {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    color: #F0D9B7;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#fpabackbutton {
+    text-decoration: none;
+    color: #F0D9B7;
+}
+
+    #fpabackbutton:hover {
+        text-decoration: none;
+        color: #a89577;
+    }
+
+/*--------------------------------------------------------------
+# Divider Section
+--------------------------------------------------------------*/
+#divider {
+    align-content: center;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#dividercontainer {
+    flex: 1;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height:50px;
+    background-color: black;
+}
+
+/*--------------------------------------------------------------
+# Rates Section
+--------------------------------------------------------------*/
+#rates {
+    background: url("../img/rbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+}
+
+#ratesdiv {
+    background-color: black;
+    width: 90%;
+    height: 560px;
+    align-self: center;
+    text-align: center;
+    margin: 50px;
+    margin-left: 70px;
+    margin-right: 85px;
+    padding: 50px;
+}
+
+#ratestitle {
+    color: #F0D9B7;
+}
+
+#ratestable {
+    color: #F0D9B7;
+    margin: 10px;
+    width: 100%;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right: 500px;
+}
+
+td {
+    padding: 5px;
+}
+
+/*--------------------------------------------------------------
+# Amenities Section
+--------------------------------------------------------------*/
+
+#amenities {
+    background: url("../img/room.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    height: 1100px;
+    width: 100%;
+    background-size: cover;
+}
+
+#amenitiesdiv {
+    background: rgba(0, 0, 0, .8);
+    width: 90%;
+    height: 800px;
+    align-self: center;
+    text-align: center;
+    margin: 50px;
+    margin-left: 70px;
+    margin-right: 85px;
+    padding: 50px;
+}
+
+#amenitiescontent {
+    padding: 5px;
+    max-width: 100%;
+    width: 100%;
+    height: 560px;
+    margin: 20px auto;
+}
+
+#amenitiestitle {
+    color: #EBCDA8;
+}
+
+#columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+    height: 560px;
+}
+
+#column1 {
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 560px;
+}
+
+#column2 {
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 560px;
+}
+
+#column3 {
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 60%;
+    height: 560px;
+}
+
+@media screen and (max-width: 980px) {
+    #columns #column1 #column2 #column3 {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+}
+
+#additionalfees {
+    flex: 1;
+    border: 1px solid #666;
+    margin:0;
+    margin-bottom:20px;
+    padding: 0;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: 50%;
+}
+
+#securitydeposit {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: 50%;
+}
+
+#corkage {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: 40%;
+}
+
+#othercharges {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: 50%;
+}
+
+#amenitieslist {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: 110%;
+}
+
+#additionalfeestitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#securitydeposittitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#corkagetitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#otherchargestitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#amenitieslisttitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+feetitle {
+    font-weight: bold;
+}
+
+#aftablecontent {
+    margin:10px;
+}
+
+#aftable {
+    width: 100%;
+    height: 40%;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+#h3af {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#afprice {
+    padding: 2px;
+    padding-right:15px;
+    width: 20%;
+    height: 20%;
+}
+
+#af {
+    padding: 2px;
+    padding-bottom: 10px;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+}
+
+#sdcontent {
+    margin: 30px 20px 20px 10px;
+}
+
+#h3sd {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sdd {
+    padding: 2px;
+    text-align: center;
+}
+
+#corkagetablecontent {
+    margin: 10px ;
+}
+
+#corkagetable {
+    width: 100%;
+    height: 40%;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+#h3c {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#corkageprice {
+    padding: 2px;
+    padding-right: 15px;
+    width: 40%;
+    height: 20%;
+}
+
+#corkagep {
+    padding: 2px;
+    padding-bottom: 20px;
+    width: 60%;
+    height: 20%;
+    text-align: center;
+}
+
+#ocontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#h3o {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#oc {
+    padding: 2px;
+    text-align: center;
+}
+
+#amenitiestablecontent {
+    margin: 10px;
+}
+
+#amenitiestable {
+    width: 100%;
+    height: 40%;
+    margin: 10px;
+    margin-right: 50px;
+    padding-right: 10px;
+}
+
+#alogo {
+    padding: 2px;
+    padding-right: 15px;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    align-content:center;
+}
+
+#aname {
+    padding: 2px;
+    padding-bottom: 15px;
+    margin-right:10px;
+    padding-right:10px;
+    width: 70%;
+    height: 20%;
+    text-align: center;
+}
+
+#vector {
+    width: 35px;
+}
+
+/*--------------------------------------------------------------
+# Important Reminders Section
+--------------------------------------------------------------*/
+
+#importantreminders {
+    background: url("../img/remindersbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+}
+
+#remindersdiv {
+    background: rgba(0, 0, 0, .8);
+    width: 90%;
+    height: 1000px;
+    align-self: center;
+    text-align: center;
+    margin: 50px;
+    margin-left: 70px;
+    margin-right: 85px;
+    padding: 50px;
+}
+
+#reminderscontent {
+    padding: 5px;
+    max-width: 100%;
+    width: 100%;
+    height: 660px;
+    margin: 20px auto;
+}
+
+#reminderstitle {
+    color: #EBCDA8;
+}
+
+#checkin {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#checkout {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom:20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#payment {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#maximumcapacity {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#cleanliness {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#sleepingcapacity {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#noise {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#smoking {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+#warning {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #EBCDA8;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+
+#checkintitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#checkouttitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#paymenttitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#maximumcapacitytitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#cleanlinesstitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#sleepingcapacitytitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#noisetitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#warningtitle {
+    color: #EBCDA8;
+    background: black;
+    margin: 0;
+    padding: 15px;
+}
+
+#listmc {
+    text-align: left;
+}
+
+#checkincontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#checkoutcontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#paymentcontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#maximumcapacitycontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#cleanlinesscontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#sleepingcapacitycontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#noisecontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#nosmokingcontent {
+    margin: 20px 20px 20px 20px;
+}
+
+#warningcontent {
+    margin: 20px 20px 20px 20px;
+}

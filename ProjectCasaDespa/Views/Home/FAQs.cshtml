@@ -1,65 +1,6 @@
 ﻿@{
     ViewData["Title"] = "FAQs Page";
 }
-<head>
-    <style>
-
-        .accordion {
-            background-color: black;
-            color: #F5D8B3;
-            cursor: pointer;
-            padding: 18px;
-            padding-left: 30px;
-            width: 85%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            transition: 0.4s;
-        }
-
-            .accordion:hover {
-                background-color: #F5D8B3;
-                color: black;
-            }
-
-            .accordion:after {
-                content: '\2193';
-                color: #F5D8B3;
-                font-size: 30px;
-                font-weight: bold;
-                float: right;
-                margin-left: 5px;
-            }
-
-        .active_faqs:after {
-            content: "\2191";
-            color: #F5D8B3;
-        }
-
-        .panel {
-            padding: 0 18px;
-            background-color: #F5D8B3;
-            max-height: 0;
-            overflow: hidden;
-            width: 85%;
-            transition: max-height 0.2s ease-out;
-            margin-bottom: 35px;
-            padding-top: 20px;
-            text-align: center;
-        }
-
-        #faqs {
-            background: url(../wwwroot/img/rbg.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: auto;
-            width: 100%;
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-
 <!-- Welcome Section -->
 <section id="welcome">
     <div id="welcomecontainer">
