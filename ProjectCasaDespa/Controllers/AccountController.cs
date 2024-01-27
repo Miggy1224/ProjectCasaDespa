@@ -12,5 +12,9 @@ namespace ProjectCasaDespa.Controllers
         {
             return View();
         }
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
     }
 }
